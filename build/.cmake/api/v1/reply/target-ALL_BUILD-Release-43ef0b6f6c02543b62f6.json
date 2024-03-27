@@ -1,0 +1,39 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"build_exercises/practice/beer-song/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "beer-song::@682a5865a27319173cc4"
+		},
+		{
+			"id" : "test_beer-song::@682a5865a27319173cc4"
+		},
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "ALL_BUILD::@682a5865a27319173cc4",
+	"isGeneratorProvided" : true,
+	"name" : "ALL_BUILD",
+	"paths" : 
+	{
+		"build" : "build_exercises/practice/beer-song",
+		"source" : "build_exercises/practice/beer-song"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

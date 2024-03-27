@@ -1,0 +1,39 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"build_exercises/practice/crypto-square/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "crypto-square::@777158db1bae97c6d551"
+		},
+		{
+			"id" : "test_crypto-square::@777158db1bae97c6d551"
+		},
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "ALL_BUILD::@777158db1bae97c6d551",
+	"isGeneratorProvided" : true,
+	"name" : "ALL_BUILD",
+	"paths" : 
+	{
+		"build" : "build_exercises/practice/crypto-square",
+		"source" : "build_exercises/practice/crypto-square"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

@@ -1,0 +1,39 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"build_exercises/practice/atbash-cipher/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "atbash-cipher::@6774ead60b0639d9fff6"
+		},
+		{
+			"id" : "test_atbash-cipher::@6774ead60b0639d9fff6"
+		},
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "ALL_BUILD::@6774ead60b0639d9fff6",
+	"isGeneratorProvided" : true,
+	"name" : "ALL_BUILD",
+	"paths" : 
+	{
+		"build" : "build_exercises/practice/atbash-cipher",
+		"source" : "build_exercises/practice/atbash-cipher"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

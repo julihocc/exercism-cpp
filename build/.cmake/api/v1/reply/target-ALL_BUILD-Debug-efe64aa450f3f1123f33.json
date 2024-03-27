@@ -1,0 +1,39 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"build_exercises/practice/pangram/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "pangram::@b2f15ba646988def0544"
+		},
+		{
+			"id" : "test_pangram::@b2f15ba646988def0544"
+		},
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "ALL_BUILD::@b2f15ba646988def0544",
+	"isGeneratorProvided" : true,
+	"name" : "ALL_BUILD",
+	"paths" : 
+	{
+		"build" : "build_exercises/practice/pangram",
+		"source" : "build_exercises/practice/pangram"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

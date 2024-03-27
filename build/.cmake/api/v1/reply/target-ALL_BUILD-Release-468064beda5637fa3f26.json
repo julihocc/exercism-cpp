@@ -1,0 +1,39 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"build_exercises/practice/robot-simulator/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "robot-simulator::@ac3f42053b1d1f09a0fb"
+		},
+		{
+			"id" : "test_robot-simulator::@ac3f42053b1d1f09a0fb"
+		},
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "ALL_BUILD::@ac3f42053b1d1f09a0fb",
+	"isGeneratorProvided" : true,
+	"name" : "ALL_BUILD",
+	"paths" : 
+	{
+		"build" : "build_exercises/practice/robot-simulator",
+		"source" : "build_exercises/practice/robot-simulator"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

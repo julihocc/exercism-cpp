@@ -1,0 +1,39 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"build_exercises/practice/meetup/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "test_meetup::@f65afc7f3ff61fb5ac89"
+		},
+		{
+			"id" : "meetup::@f65afc7f3ff61fb5ac89"
+		},
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "ALL_BUILD::@f65afc7f3ff61fb5ac89",
+	"isGeneratorProvided" : true,
+	"name" : "ALL_BUILD",
+	"paths" : 
+	{
+		"build" : "build_exercises/practice/meetup",
+		"source" : "build_exercises/practice/meetup"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

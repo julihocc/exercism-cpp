@@ -1,0 +1,39 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"build_exercises/practice/triangle/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "triangle::@d404bb20cfb236a0ffc2"
+		},
+		{
+			"id" : "test_triangle::@d404bb20cfb236a0ffc2"
+		},
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "ALL_BUILD::@d404bb20cfb236a0ffc2",
+	"isGeneratorProvided" : true,
+	"name" : "ALL_BUILD",
+	"paths" : 
+	{
+		"build" : "build_exercises/practice/triangle",
+		"source" : "build_exercises/practice/triangle"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

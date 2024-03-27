@@ -1,0 +1,39 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"build_exercises/practice/nucleotide-count/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "nucleotide-count::@177482f02cccb4a01e5d"
+		},
+		{
+			"id" : "test_nucleotide-count::@177482f02cccb4a01e5d"
+		},
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "ALL_BUILD::@177482f02cccb4a01e5d",
+	"isGeneratorProvided" : true,
+	"name" : "ALL_BUILD",
+	"paths" : 
+	{
+		"build" : "build_exercises/practice/nucleotide-count",
+		"source" : "build_exercises/practice/nucleotide-count"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

@@ -1,0 +1,39 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"build_exercises/practice/all-your-base/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "all-your-base::@2871c87c1e81ed76a9ea"
+		},
+		{
+			"id" : "test_all-your-base::@2871c87c1e81ed76a9ea"
+		},
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "ALL_BUILD::@2871c87c1e81ed76a9ea",
+	"isGeneratorProvided" : true,
+	"name" : "ALL_BUILD",
+	"paths" : 
+	{
+		"build" : "build_exercises/practice/all-your-base",
+		"source" : "build_exercises/practice/all-your-base"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

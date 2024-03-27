@@ -1,0 +1,39 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"build_exercises/practice/pascals-triangle/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "test_pascals-triangle::@5bf1e5a926c8df0e850c"
+		},
+		{
+			"id" : "pascals-triangle::@5bf1e5a926c8df0e850c"
+		},
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "ALL_BUILD::@5bf1e5a926c8df0e850c",
+	"isGeneratorProvided" : true,
+	"name" : "ALL_BUILD",
+	"paths" : 
+	{
+		"build" : "build_exercises/practice/pascals-triangle",
+		"source" : "build_exercises/practice/pascals-triangle"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

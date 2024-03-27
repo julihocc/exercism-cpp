@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "build_exercises/practice/largest-series-product",
+		"source" : "build_exercises/practice/largest-series-product"
+	}
+}

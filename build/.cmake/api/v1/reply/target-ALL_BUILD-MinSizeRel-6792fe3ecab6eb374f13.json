@@ -1,0 +1,39 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"build_exercises/practice/matching-brackets/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "test_matching-brackets::@203047ca3db119d60b73"
+		},
+		{
+			"id" : "matching-brackets::@203047ca3db119d60b73"
+		},
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "ALL_BUILD::@203047ca3db119d60b73",
+	"isGeneratorProvided" : true,
+	"name" : "ALL_BUILD",
+	"paths" : 
+	{
+		"build" : "build_exercises/practice/matching-brackets",
+		"source" : "build_exercises/practice/matching-brackets"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

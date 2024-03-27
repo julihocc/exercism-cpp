@@ -1,0 +1,39 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"build_exercises/practice/secret-handshake/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "test_secret-handshake::@af467a2e9db1950532cf"
+		},
+		{
+			"id" : "secret-handshake::@af467a2e9db1950532cf"
+		},
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "ALL_BUILD::@af467a2e9db1950532cf",
+	"isGeneratorProvided" : true,
+	"name" : "ALL_BUILD",
+	"paths" : 
+	{
+		"build" : "build_exercises/practice/secret-handshake",
+		"source" : "build_exercises/practice/secret-handshake"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

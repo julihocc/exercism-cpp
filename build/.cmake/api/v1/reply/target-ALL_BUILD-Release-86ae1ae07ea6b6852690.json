@@ -1,0 +1,39 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"build_exercises/practice/binary/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "binary::@a0403b48e4aa12ec3ad9"
+		},
+		{
+			"id" : "test_binary::@a0403b48e4aa12ec3ad9"
+		},
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "ALL_BUILD::@a0403b48e4aa12ec3ad9",
+	"isGeneratorProvided" : true,
+	"name" : "ALL_BUILD",
+	"paths" : 
+	{
+		"build" : "build_exercises/practice/binary",
+		"source" : "build_exercises/practice/binary"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

@@ -1,0 +1,39 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"build_exercises/practice/roman-numerals/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "test_roman-numerals::@915d346b11142025fe45"
+		},
+		{
+			"id" : "roman-numerals::@915d346b11142025fe45"
+		},
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "ALL_BUILD::@915d346b11142025fe45",
+	"isGeneratorProvided" : true,
+	"name" : "ALL_BUILD",
+	"paths" : 
+	{
+		"build" : "build_exercises/practice/roman-numerals",
+		"source" : "build_exercises/practice/roman-numerals"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

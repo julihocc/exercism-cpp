@@ -1,0 +1,39 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"build_exercises/practice/anagram/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "anagram::@f07870e3d61dd2c6e351"
+		},
+		{
+			"id" : "test_anagram::@f07870e3d61dd2c6e351"
+		},
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "ALL_BUILD::@f07870e3d61dd2c6e351",
+	"isGeneratorProvided" : true,
+	"name" : "ALL_BUILD",
+	"paths" : 
+	{
+		"build" : "build_exercises/practice/anagram",
+		"source" : "build_exercises/practice/anagram"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

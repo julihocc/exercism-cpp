@@ -1,0 +1,39 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"build_exercises/practice/prime-factors/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "prime-factors::@a35022c12956e4db4862"
+		},
+		{
+			"id" : "test_prime-factors::@a35022c12956e4db4862"
+		},
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "ALL_BUILD::@a35022c12956e4db4862",
+	"isGeneratorProvided" : true,
+	"name" : "ALL_BUILD",
+	"paths" : 
+	{
+		"build" : "build_exercises/practice/prime-factors",
+		"source" : "build_exercises/practice/prime-factors"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

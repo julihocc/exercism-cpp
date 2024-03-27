@@ -1,0 +1,39 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"build_exercises/practice/simple-linked-list/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "test_simple-linked-list::@dfd38f149791e6fada06"
+		},
+		{
+			"id" : "simple-linked-list::@dfd38f149791e6fada06"
+		},
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "ALL_BUILD::@dfd38f149791e6fada06",
+	"isGeneratorProvided" : true,
+	"name" : "ALL_BUILD",
+	"paths" : 
+	{
+		"build" : "build_exercises/practice/simple-linked-list",
+		"source" : "build_exercises/practice/simple-linked-list"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

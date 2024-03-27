@@ -1,0 +1,39 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"build_exercises/practice/bank-account/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "test_bank-account::@f144afe7c9ec4fbbba72"
+		},
+		{
+			"id" : "bank-account::@f144afe7c9ec4fbbba72"
+		},
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "ALL_BUILD::@f144afe7c9ec4fbbba72",
+	"isGeneratorProvided" : true,
+	"name" : "ALL_BUILD",
+	"paths" : 
+	{
+		"build" : "build_exercises/practice/bank-account",
+		"source" : "build_exercises/practice/bank-account"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

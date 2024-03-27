@@ -1,0 +1,39 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"build_exercises/practice/robot-name/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "robot-name::@df9da4f6a446e033a36e"
+		},
+		{
+			"id" : "test_robot-name::@df9da4f6a446e033a36e"
+		},
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "ALL_BUILD::@df9da4f6a446e033a36e",
+	"isGeneratorProvided" : true,
+	"name" : "ALL_BUILD",
+	"paths" : 
+	{
+		"build" : "build_exercises/practice/robot-name",
+		"source" : "build_exercises/practice/robot-name"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

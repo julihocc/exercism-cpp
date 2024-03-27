@@ -1,0 +1,816 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x86</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ResolveNugetPackages>false</ResolveNugetPackages>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{8FB8B1C0-D0E1-3E4D-B963-97E79D42D652}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\julih\Insync\jcc30986@gmail.com\drive\Sandbox\exercism-cpp\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/julih/Insync/jcc30986@gmail.com/drive/Sandbox/exercism-cpp/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/julih/Insync/jcc30986@gmail.com/drive/Sandbox/exercism-cpp -BC:/Users/julih/Insync/jcc30986@gmail.com/drive/Sandbox/exercism-cpp/build --check-stamp-file C:/Users/julih/Insync/jcc30986@gmail.com/drive/Sandbox/exercism-cpp/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeCXXCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeParseLibraryArchitecture.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeRCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\ARMClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\IBMClang-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\LCC-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\NVHPC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\Tasking-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.27\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-Determine-CXX.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\WindowsPaths.cmake;C:\Users\julih\Insync\jcc30986@gmail.com\drive\Sandbox\exercism-cpp\build\CMakeFiles\3.27.4\CMakeCXXCompiler.cmake;C:\Users\julih\Insync\jcc30986@gmail.com\drive\Sandbox\exercism-cpp\build\CMakeFiles\3.27.4\CMakeRCCompiler.cmake;C:\Users\julih\Insync\jcc30986@gmail.com\drive\Sandbox\exercism-cpp\build\CMakeFiles\3.27.4\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\julih\Insync\jcc30986@gmail.com\drive\Sandbox\exercism-cpp\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/julih/Insync/jcc30986@gmail.com/drive/Sandbox/exercism-cpp/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/julih/Insync/jcc30986@gmail.com/drive/Sandbox/exercism-cpp -BC:/Users/julih/Insync/jcc30986@gmail.com/drive/Sandbox/exercism-cpp/build --check-stamp-file C:/Users/julih/Insync/jcc30986@gmail.com/drive/Sandbox/exercism-cpp/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeCXXCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeParseLibraryArchitecture.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeRCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\ARMClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\IBMClang-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\LCC-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\NVHPC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\Tasking-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.27\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-Determine-CXX.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\WindowsPaths.cmake;C:\Users\julih\Insync\jcc30986@gmail.com\drive\Sandbox\exercism-cpp\build\CMakeFiles\3.27.4\CMakeCXXCompiler.cmake;C:\Users\julih\Insync\jcc30986@gmail.com\drive\Sandbox\exercism-cpp\build\CMakeFiles\3.27.4\CMakeRCCompiler.cmake;C:\Users\julih\Insync\jcc30986@gmail.com\drive\Sandbox\exercism-cpp\build\CMakeFiles\3.27.4\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\julih\Insync\jcc30986@gmail.com\drive\Sandbox\exercism-cpp\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/julih/Insync/jcc30986@gmail.com/drive/Sandbox/exercism-cpp/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/julih/Insync/jcc30986@gmail.com/drive/Sandbox/exercism-cpp -BC:/Users/julih/Insync/jcc30986@gmail.com/drive/Sandbox/exercism-cpp/build --check-stamp-file C:/Users/julih/Insync/jcc30986@gmail.com/drive/Sandbox/exercism-cpp/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeCXXCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeParseLibraryArchitecture.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeRCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\ARMClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\IBMClang-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\LCC-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\NVHPC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\Tasking-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.27\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-Determine-CXX.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\WindowsPaths.cmake;C:\Users\julih\Insync\jcc30986@gmail.com\drive\Sandbox\exercism-cpp\build\CMakeFiles\3.27.4\CMakeCXXCompiler.cmake;C:\Users\julih\Insync\jcc30986@gmail.com\drive\Sandbox\exercism-cpp\build\CMakeFiles\3.27.4\CMakeRCCompiler.cmake;C:\Users\julih\Insync\jcc30986@gmail.com\drive\Sandbox\exercism-cpp\build\CMakeFiles\3.27.4\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\julih\Insync\jcc30986@gmail.com\drive\Sandbox\exercism-cpp\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/julih/Insync/jcc30986@gmail.com/drive/Sandbox/exercism-cpp/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/julih/Insync/jcc30986@gmail.com/drive/Sandbox/exercism-cpp -BC:/Users/julih/Insync/jcc30986@gmail.com/drive/Sandbox/exercism-cpp/build --check-stamp-file C:/Users/julih/Insync/jcc30986@gmail.com/drive/Sandbox/exercism-cpp/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeCXXCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeCXXCompilerABI.cpp;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeDetermineCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeParseLibraryArchitecture.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeRCCompiler.cmake.in;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeTestCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\ARMClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\IBMClang-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\LCC-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\NVHPC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\Tasking-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.27\Modules\Internal\FeatureTesting.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-Determine-CXX.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\WindowsPaths.cmake;C:\Users\julih\Insync\jcc30986@gmail.com\drive\Sandbox\exercism-cpp\build\CMakeFiles\3.27.4\CMakeCXXCompiler.cmake;C:\Users\julih\Insync\jcc30986@gmail.com\drive\Sandbox\exercism-cpp\build\CMakeFiles\3.27.4\CMakeRCCompiler.cmake;C:\Users\julih\Insync\jcc30986@gmail.com\drive\Sandbox\exercism-cpp\build\CMakeFiles\3.27.4\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\julih\Insync\jcc30986@gmail.com\drive\Sandbox\exercism-cpp\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\julih\Insync\jcc30986@gmail.com\drive\Sandbox\exercism-cpp\build\ZERO_CHECK.vcxproj">
+      <Project>{2C5D8563-5440-3956-A02D-021196C205A1}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\julih\Insync\jcc30986@gmail.com\drive\Sandbox\exercism-cpp\build\build_exercises\practice\acronym\acronym.vcxproj">
+      <Project>{45253209-2B1A-3C55-87C6-B53F6ACCC2C8}</Project>
+      <Name>acronym</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\julih\Insync\jcc30986@gmail.com\drive\Sandbox\exercism-cpp\build\build_exercises\practice\all-your-base\all-your-base.vcxproj">
+      <Project>{26FDAF26-3ECC-309D-9757-E5D88AFB59BB}</Project>
+      <Name>all-your-base</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\julih\Insync\jcc30986@gmail.com\drive\Sandbox\exercism-cpp\build\build_exercises\practice\allergies\allergies.vcxproj">
+      <Project>{ACA0C871-681F-3E93-89C6-CD5018BB5B46}</Project>
+      <Name>allergies</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\julih\Insync\jcc30986@gmail.com\drive\Sandbox\exercism-cpp\build\build_exercises\practice\anagram\anagram.vcxproj">
+      <Project>{E0C08E33-1771-3227-B00B-79E50362914F}</Project>
+      <Name>anagram</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\julih\Insync\jcc30986@gmail.com\drive\Sandbox\exercism-cpp\build\build_exercises\practice\armstrong-numbers\armstrong-numbers.vcxproj">
+      <Project>{12A6F39D-BFFE-3F8B-B470-5D2CB6DB778A}</Project>
+      <Name>armstrong-numbers</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\julih\Insync\jcc30986@gmail.com\drive\Sandbox\exercism-cpp\build\build_exercises\practice\atbash-cipher\atbash-cipher.vcxproj">
+      <Project>{BC1A76F1-C75C-3333-B1F4-B4443791320E}</Project>
+      <Name>atbash-cipher</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\julih\Insync\jcc30986@gmail.com\drive\Sandbox\exercism-cpp\build\build_exercises\practice\bank-account\bank-account.vcxproj">
+      <Project>{0E5B0B48-6364-3D9A-B6EB-BB918AA45ED9}</Project>
+      <Name>bank-account</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\julih\Insync\jcc30986@gmail.com\drive\Sandbox\exercism-cpp\build\build_exercises\practice\beer-song\beer-song.vcxproj">
+      <Project>{DBF99D76-8B8A-30A6-9B95-3D27670074B0}</Project>
+      <Name>beer-song</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\julih\Insync\jcc30986@gmail.com\drive\Sandbox\exercism-cpp\build\build_exercises\practice\binary\binary.vcxproj">
+      <Project>{6993E021-B75C-345F-998D-F266CCD96EB2}</Project>
+      <Name>binary</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\julih\Insync\jcc30986@gmail.com\drive\Sandbox\exercism-cpp\build\build_exercises\practice\binary-search\binary-search.vcxproj">
+      <Project>{7396BE8A-D61B-32B3-8E87-18C69C48DC8A}</Project>
+      <Name>binary-search</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\julih\Insync\jcc30986@gmail.com\drive\Sandbox\exercism-cpp\build\build_exercises\practice\binary-search-tree\binary-search-tree.vcxproj">
+      <Project>{9F94767D-753C-386D-AC8D-EC77AEED71B4}</Project>
+      <Name>binary-search-tree</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\julih\Insync\jcc30986@gmail.com\drive\Sandbox\exercism-cpp\build\build_exercises\practice\bob\bob.vcxproj">
+      <Project>{28B95093-7299-37F0-91F1-297F0CE3B62A}</Project>
+      <Name>bob</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\julih\Insync\jcc30986@gmail.com\drive\Sandbox\exercism-cpp\build\catchlib.vcxproj">
+      <Project>{25BD5037-EB8F-32B6-B1F3-47A8C0CE1388}</Project>
+      <Name>catchlib</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\julih\Insync\jcc30986@gmail.com\drive\Sandbox\exercism-cpp\build\build_exercises\practice\circular-buffer\circular-buffer.vcxproj">
+      <Project>{21F6F500-61C9-30B1-B380-17B9D1F765E7}</Project>
+      <Name>circular-buffer</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\julih\Insync\jcc30986@gmail.com\drive\Sandbox\exercism-cpp\build\build_exercises\practice\clock\clock.vcxproj">
+      <Project>{1DEF1530-E4F4-32A5-A692-4A1A80E8983F}</Project>
+      <Name>clock</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\julih\Insync\jcc30986@gmail.com\drive\Sandbox\exercism-cpp\build\build_exercises\practice\collatz-conjecture\collatz-conjecture.vcxproj">
+      <Project>{E25B084F-F0A3-30D5-9528-59C88DB1788D}</Project>
+      <Name>collatz-conjecture</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\julih\Insync\jcc30986@gmail.com\drive\Sandbox\exercism-cpp\build\build_exercises\practice\complex-numbers\complex-numbers.vcxproj">
+      <Project>{3C6B1BFE-2F97-3CC7-A48C-B0DC7F5C0CEA}</Project>
+      <Name>complex-numbers</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\julih\Insync\jcc30986@gmail.com\drive\Sandbox\exercism-cpp\build\build_exercises\practice\crypto-square\crypto-square.vcxproj">
+      <Project>{F7638948-25C2-3F75-8198-113D22FB433C}</Project>
+      <Name>crypto-square</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\julih\Insync\jcc30986@gmail.com\drive\Sandbox\exercism-cpp\build\build_exercises\practice\darts\darts.vcxproj">
+      <Project>{27799B89-8241-35C4-A918-FC869B636046}</Project>
+      <Name>darts</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\julih\Insync\jcc30986@gmail.com\drive\Sandbox\exercism-cpp\build\build_exercises\practice\difference-of-squares\difference-of-squares.vcxproj">
+      <Project>{8CD83EC7-1FB7-3A90-94DB-81FF6F21C025}</Project>
+      <Name>difference-of-squares</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\julih\Insync\jcc30986@gmail.com\drive\Sandbox\exercism-cpp\build\build_exercises\practice\etl\etl.vcxproj">
+      <Project>{20351DB3-E578-34D5-AA8E-3C76C8970B49}</Project>
+      <Name>etl</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\julih\Insync\jcc30986@gmail.com\drive\Sandbox\exercism-cpp\build\build_exercises\practice\food-chain\food-chain.vcxproj">
+      <Project>{A8A211EB-3F79-3B7A-AA7A-20F62B8173C3}</Project>
+      <Name>food-chain</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\julih\Insync\jcc30986@gmail.com\drive\Sandbox\exercism-cpp\build\build_exercises\practice\gigasecond\gigasecond.vcxproj">
+      <Project>{22EFA3B6-4093-3CF3-A315-1A0E1FC0310A}</Project>
+      <Name>gigasecond</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\julih\Insync\jcc30986@gmail.com\drive\Sandbox\exercism-cpp\build\build_exercises\practice\grade-school\grade-school.vcxproj">
+      <Project>{69847D83-BEFD-3ACE-BA31-4BAF8F499384}</Project>
+      <Name>grade-school</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\julih\Insync\jcc30986@gmail.com\drive\Sandbox\exercism-cpp\build\build_exercises\practice\grains\grains.vcxproj">
+      <Project>{52188507-F668-3F79-80D6-972B8F3E7E8C}</Project>
+      <Name>grains</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\julih\Insync\jcc30986@gmail.com\drive\Sandbox\exercism-cpp\build\build_exercises\practice\hamming\hamming.vcxproj">
+      <Project>{80CBCBD9-00DE-3015-A15A-99CCF15B637F}</Project>
+      <Name>hamming</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\julih\Insync\jcc30986@gmail.com\drive\Sandbox\exercism-cpp\build\build_exercises\practice\hello-world\hello-world.vcxproj">
+      <Project>{EBCDD9E5-4E4A-3C90-B656-79F394D1F5B4}</Project>
+      <Name>hello-world</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\julih\Insync\jcc30986@gmail.com\drive\Sandbox\exercism-cpp\build\build_exercises\practice\hexadecimal\hexadecimal.vcxproj">
+      <Project>{0000E40D-98F9-3F36-8396-FD7B29B591C3}</Project>
+      <Name>hexadecimal</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\julih\Insync\jcc30986@gmail.com\drive\Sandbox\exercism-cpp\build\build_exercises\practice\high-scores\high-scores.vcxproj">
+      <Project>{A3B5C5C7-933A-3162-ABEC-C1FE49B199F0}</Project>
+      <Name>high-scores</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\julih\Insync\jcc30986@gmail.com\drive\Sandbox\exercism-cpp\build\build_exercises\practice\isbn-verifier\isbn-verifier.vcxproj">
+      <Project>{DF829CA2-90B7-3F5B-91A9-90875BEEAED3}</Project>
+      <Name>isbn-verifier</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\julih\Insync\jcc30986@gmail.com\drive\Sandbox\exercism-cpp\build\build_exercises\practice\isogram\isogram.vcxproj">
+      <Project>{E72D7A80-C590-365F-A780-0770DC230E71}</Project>
+      <Name>isogram</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\julih\Insync\jcc30986@gmail.com\drive\Sandbox\exercism-cpp\build\build_exercises\practice\largest-series-product\largest-series-product.vcxproj">
+      <Project>{32A8F59B-5648-311F-B521-A743CC7E5273}</Project>
+      <Name>largest-series-product</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\julih\Insync\jcc30986@gmail.com\drive\Sandbox\exercism-cpp\build\build_exercises\practice\leap\leap.vcxproj">
+      <Project>{6AE327CA-FB39-339E-98B4-B839144123A0}</Project>
+      <Name>leap</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\julih\Insync\jcc30986@gmail.com\drive\Sandbox\exercism-cpp\build\build_exercises\practice\luhn\luhn.vcxproj">
+      <Project>{A3691F53-B13C-39DE-A9CD-84E9614B82F9}</Project>
+      <Name>luhn</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\julih\Insync\jcc30986@gmail.com\drive\Sandbox\exercism-cpp\build\build_exercises\practice\matching-brackets\matching-brackets.vcxproj">
+      <Project>{C1581E11-24A8-369D-91BC-9B76D5FF0BAF}</Project>
+      <Name>matching-brackets</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\julih\Insync\jcc30986@gmail.com\drive\Sandbox\exercism-cpp\build\build_exercises\practice\meetup\meetup.vcxproj">
+      <Project>{3C77316C-30D0-31AD-9924-FA12EE86E242}</Project>
+      <Name>meetup</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\julih\Insync\jcc30986@gmail.com\drive\Sandbox\exercism-cpp\build\build_exercises\practice\nth-prime\nth-prime.vcxproj">
+      <Project>{369AEF21-56A2-3DFA-B9AB-79BA0DEE6298}</Project>
+      <Name>nth-prime</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\julih\Insync\jcc30986@gmail.com\drive\Sandbox\exercism-cpp\build\build_exercises\practice\nucleotide-count\nucleotide-count.vcxproj">
+      <Project>{7A25B362-6E73-3F77-90FD-F92620024EC9}</Project>
+      <Name>nucleotide-count</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\julih\Insync\jcc30986@gmail.com\drive\Sandbox\exercism-cpp\build\build_exercises\practice\pangram\pangram.vcxproj">
+      <Project>{F8464A60-D09C-38D0-81BC-BD934807D856}</Project>
+      <Name>pangram</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\julih\Insync\jcc30986@gmail.com\drive\Sandbox\exercism-cpp\build\build_exercises\practice\pascals-triangle\pascals-triangle.vcxproj">
+      <Project>{722842D1-8543-3E11-9962-1D44802FDCA0}</Project>
+      <Name>pascals-triangle</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\julih\Insync\jcc30986@gmail.com\drive\Sandbox\exercism-cpp\build\build_exercises\practice\perfect-numbers\perfect-numbers.vcxproj">
+      <Project>{147C800A-D508-3260-A3D6-1E16ED647445}</Project>
+      <Name>perfect-numbers</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\julih\Insync\jcc30986@gmail.com\drive\Sandbox\exercism-cpp\build\build_exercises\practice\phone-number\phone-number.vcxproj">
+      <Project>{D873C8DB-89F9-3F4D-80F4-2ECF4D9CA846}</Project>
+      <Name>phone-number</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\julih\Insync\jcc30986@gmail.com\drive\Sandbox\exercism-cpp\build\build_exercises\practice\pop-count\pop-count.vcxproj">
+      <Project>{C25A8484-339E-392E-A4AE-CC36D040E6E3}</Project>
+      <Name>pop-count</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\julih\Insync\jcc30986@gmail.com\drive\Sandbox\exercism-cpp\build\build_exercises\practice\prime-factors\prime-factors.vcxproj">
+      <Project>{2A0BCC92-1866-30A6-A0A6-38487290A74A}</Project>
+      <Name>prime-factors</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\julih\Insync\jcc30986@gmail.com\drive\Sandbox\exercism-cpp\build\build_exercises\practice\protein-translation\protein-translation.vcxproj">
+      <Project>{78E6906A-9E11-31D8-A456-E44A7B7925FE}</Project>
+      <Name>protein-translation</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\julih\Insync\jcc30986@gmail.com\drive\Sandbox\exercism-cpp\build\build_exercises\practice\queen-attack\queen-attack.vcxproj">
+      <Project>{777302FE-549B-3799-AF78-A33257AAB492}</Project>
+      <Name>queen-attack</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\julih\Insync\jcc30986@gmail.com\drive\Sandbox\exercism-cpp\build\build_exercises\practice\raindrops\raindrops.vcxproj">
+      <Project>{DB51EF09-91CB-3F2A-9E94-D05C8B50775C}</Project>
+      <Name>raindrops</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\julih\Insync\jcc30986@gmail.com\drive\Sandbox\exercism-cpp\build\build_exercises\practice\reverse-string\reverse-string.vcxproj">
+      <Project>{CCA0B8F3-A2E2-3BA0-A878-8AFC6FB1BC66}</Project>
+      <Name>reverse-string</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\julih\Insync\jcc30986@gmail.com\drive\Sandbox\exercism-cpp\build\build_exercises\practice\rna-transcription\rna-transcription.vcxproj">
+      <Project>{FB25D66B-A96F-3D79-A77C-24E0FA3FE5FD}</Project>
+      <Name>rna-transcription</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\julih\Insync\jcc30986@gmail.com\drive\Sandbox\exercism-cpp\build\build_exercises\practice\robot-name\robot-name.vcxproj">
+      <Project>{2445B4B1-2731-31A7-9DB1-660005A54911}</Project>
+      <Name>robot-name</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\julih\Insync\jcc30986@gmail.com\drive\Sandbox\exercism-cpp\build\build_exercises\practice\robot-simulator\robot-simulator.vcxproj">
+      <Project>{7F63FAB6-70DA-3C47-B18E-F2C300B8A1D1}</Project>
+      <Name>robot-simulator</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\julih\Insync\jcc30986@gmail.com\drive\Sandbox\exercism-cpp\build\build_exercises\practice\roman-numerals\roman-numerals.vcxproj">
+      <Project>{602D7AC2-5DDF-306F-9AB3-8E397F4BCBE7}</Project>
+      <Name>roman-numerals</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\julih\Insync\jcc30986@gmail.com\drive\Sandbox\exercism-cpp\build\build_exercises\practice\say\say.vcxproj">
+      <Project>{F0ACF00D-905E-383B-BD00-3DA6F5ABFFFD}</Project>
+      <Name>say</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\julih\Insync\jcc30986@gmail.com\drive\Sandbox\exercism-cpp\build\build_exercises\practice\scrabble-score\scrabble-score.vcxproj">
+      <Project>{7A7602D9-670B-39AE-A464-323A40B2D684}</Project>
+      <Name>scrabble-score</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\julih\Insync\jcc30986@gmail.com\drive\Sandbox\exercism-cpp\build\build_exercises\practice\secret-handshake\secret-handshake.vcxproj">
+      <Project>{146F41CD-7405-3BE0-BEA9-1CDEF3220106}</Project>
+      <Name>secret-handshake</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\julih\Insync\jcc30986@gmail.com\drive\Sandbox\exercism-cpp\build\build_exercises\practice\series\series.vcxproj">
+      <Project>{4D157B1C-ED5A-339C-AAD7-A3858933F1E3}</Project>
+      <Name>series</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\julih\Insync\jcc30986@gmail.com\drive\Sandbox\exercism-cpp\build\build_exercises\practice\sieve\sieve.vcxproj">
+      <Project>{D39AB09D-F2E6-3B5E-A43D-FF3691CFAD59}</Project>
+      <Name>sieve</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\julih\Insync\jcc30986@gmail.com\drive\Sandbox\exercism-cpp\build\build_exercises\practice\simple-linked-list\simple-linked-list.vcxproj">
+      <Project>{639A5594-8A98-3933-A994-23974374126F}</Project>
+      <Name>simple-linked-list</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\julih\Insync\jcc30986@gmail.com\drive\Sandbox\exercism-cpp\build\build_exercises\practice\space-age\space-age.vcxproj">
+      <Project>{526402E4-30E7-3E61-9DC9-6EB375547BEF}</Project>
+      <Name>space-age</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\julih\Insync\jcc30986@gmail.com\drive\Sandbox\exercism-cpp\build\build_exercises\practice\sum-of-multiples\sum-of-multiples.vcxproj">
+      <Project>{783A5B9F-464C-38CB-BF4C-2D2140EB7F42}</Project>
+      <Name>sum-of-multiples</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\julih\Insync\jcc30986@gmail.com\drive\Sandbox\exercism-cpp\build\build_exercises\practice\acronym\test_acronym.vcxproj">
+      <Project>{BB298430-C8EB-3CB0-9226-8CAB43ED2374}</Project>
+      <Name>test_acronym</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\julih\Insync\jcc30986@gmail.com\drive\Sandbox\exercism-cpp\build\build_exercises\practice\all-your-base\test_all-your-base.vcxproj">
+      <Project>{6DA912DA-9851-3548-B3C2-57D395B8A244}</Project>
+      <Name>test_all-your-base</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\julih\Insync\jcc30986@gmail.com\drive\Sandbox\exercism-cpp\build\build_exercises\practice\allergies\test_allergies.vcxproj">
+      <Project>{57F6952A-8BF5-3779-B5FE-ACC274DFFE85}</Project>
+      <Name>test_allergies</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\julih\Insync\jcc30986@gmail.com\drive\Sandbox\exercism-cpp\build\build_exercises\practice\anagram\test_anagram.vcxproj">
+      <Project>{7AEDBED6-8682-33B1-B08F-AF0284A09A03}</Project>
+      <Name>test_anagram</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\julih\Insync\jcc30986@gmail.com\drive\Sandbox\exercism-cpp\build\build_exercises\practice\armstrong-numbers\test_armstrong-numbers.vcxproj">
+      <Project>{7A7E6D48-A2BC-3F59-98FC-0D936E052E8D}</Project>
+      <Name>test_armstrong-numbers</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\julih\Insync\jcc30986@gmail.com\drive\Sandbox\exercism-cpp\build\build_exercises\practice\atbash-cipher\test_atbash-cipher.vcxproj">
+      <Project>{F1E2056E-ECF4-3DDD-AD22-DDB9941DA4CF}</Project>
+      <Name>test_atbash-cipher</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\julih\Insync\jcc30986@gmail.com\drive\Sandbox\exercism-cpp\build\build_exercises\practice\bank-account\test_bank-account.vcxproj">
+      <Project>{84E810B2-C98B-33BB-B84C-E8CBC0C0F2E0}</Project>
+      <Name>test_bank-account</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\julih\Insync\jcc30986@gmail.com\drive\Sandbox\exercism-cpp\build\build_exercises\practice\beer-song\test_beer-song.vcxproj">
+      <Project>{D91B8968-F924-3B9D-B725-2AC4A9CD5364}</Project>
+      <Name>test_beer-song</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\julih\Insync\jcc30986@gmail.com\drive\Sandbox\exercism-cpp\build\build_exercises\practice\binary\test_binary.vcxproj">
+      <Project>{EC3B9BBE-9A17-3278-9822-8AA729D35A9C}</Project>
+      <Name>test_binary</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\julih\Insync\jcc30986@gmail.com\drive\Sandbox\exercism-cpp\build\build_exercises\practice\binary-search\test_binary-search.vcxproj">
+      <Project>{38E6E57F-1164-33A6-BC02-A2284DFAB6F7}</Project>
+      <Name>test_binary-search</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\julih\Insync\jcc30986@gmail.com\drive\Sandbox\exercism-cpp\build\build_exercises\practice\binary-search-tree\test_binary-search-tree.vcxproj">
+      <Project>{DB4DD91E-EA4B-3284-A975-AB3992F92B1D}</Project>
+      <Name>test_binary-search-tree</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\julih\Insync\jcc30986@gmail.com\drive\Sandbox\exercism-cpp\build\build_exercises\practice\bob\test_bob.vcxproj">
+      <Project>{6F51403C-AEE5-3D58-90FB-110856EF3677}</Project>
+      <Name>test_bob</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\julih\Insync\jcc30986@gmail.com\drive\Sandbox\exercism-cpp\build\build_exercises\practice\circular-buffer\test_circular-buffer.vcxproj">
+      <Project>{FEE4E2A5-0FCF-3CDA-9A50-2CB6B63F4B75}</Project>
+      <Name>test_circular-buffer</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\julih\Insync\jcc30986@gmail.com\drive\Sandbox\exercism-cpp\build\build_exercises\practice\clock\test_clock.vcxproj">
+      <Project>{132AFDA8-4194-36DD-B80E-7FAC855F42A9}</Project>
+      <Name>test_clock</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\julih\Insync\jcc30986@gmail.com\drive\Sandbox\exercism-cpp\build\build_exercises\practice\collatz-conjecture\test_collatz-conjecture.vcxproj">
+      <Project>{3FE8A852-232B-3408-AE9F-49FA76500137}</Project>
+      <Name>test_collatz-conjecture</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\julih\Insync\jcc30986@gmail.com\drive\Sandbox\exercism-cpp\build\build_exercises\practice\complex-numbers\test_complex-numbers.vcxproj">
+      <Project>{57F1DC2D-ADA1-3440-9589-AC8731C0F09C}</Project>
+      <Name>test_complex-numbers</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\julih\Insync\jcc30986@gmail.com\drive\Sandbox\exercism-cpp\build\build_exercises\practice\crypto-square\test_crypto-square.vcxproj">
+      <Project>{6C195312-716E-3755-8D1A-D932EAA85F9F}</Project>
+      <Name>test_crypto-square</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\julih\Insync\jcc30986@gmail.com\drive\Sandbox\exercism-cpp\build\build_exercises\practice\darts\test_darts.vcxproj">
+      <Project>{773CCD39-EA9B-3597-8B37-3EDD30C1FA4F}</Project>
+      <Name>test_darts</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\julih\Insync\jcc30986@gmail.com\drive\Sandbox\exercism-cpp\build\build_exercises\practice\difference-of-squares\test_difference-of-squares.vcxproj">
+      <Project>{CCB5CCF2-C67D-3B6C-80E0-F0302B9F2194}</Project>
+      <Name>test_difference-of-squares</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\julih\Insync\jcc30986@gmail.com\drive\Sandbox\exercism-cpp\build\build_exercises\practice\etl\test_etl.vcxproj">
+      <Project>{FF3A8083-772A-372A-B003-7EEE0D8E30D4}</Project>
+      <Name>test_etl</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\julih\Insync\jcc30986@gmail.com\drive\Sandbox\exercism-cpp\build\build_exercises\practice\food-chain\test_food-chain.vcxproj">
+      <Project>{728C0889-7E87-3CC8-A417-F254FFA6E8E6}</Project>
+      <Name>test_food-chain</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\julih\Insync\jcc30986@gmail.com\drive\Sandbox\exercism-cpp\build\build_exercises\practice\gigasecond\test_gigasecond.vcxproj">
+      <Project>{FED71A1D-256D-3D1E-82DF-53F92FD446D8}</Project>
+      <Name>test_gigasecond</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\julih\Insync\jcc30986@gmail.com\drive\Sandbox\exercism-cpp\build\build_exercises\practice\grade-school\test_grade-school.vcxproj">
+      <Project>{88F8EA87-E431-363D-8596-4A66218AF4B0}</Project>
+      <Name>test_grade-school</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\julih\Insync\jcc30986@gmail.com\drive\Sandbox\exercism-cpp\build\build_exercises\practice\grains\test_grains.vcxproj">
+      <Project>{12FF5DE5-4E71-3DBC-9D49-6E1A1DD453C0}</Project>
+      <Name>test_grains</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\julih\Insync\jcc30986@gmail.com\drive\Sandbox\exercism-cpp\build\build_exercises\practice\hamming\test_hamming.vcxproj">
+      <Project>{3977B8A6-9A94-3DED-B2F7-85B73CDD8625}</Project>
+      <Name>test_hamming</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\julih\Insync\jcc30986@gmail.com\drive\Sandbox\exercism-cpp\build\build_exercises\practice\hello-world\test_hello-world.vcxproj">
+      <Project>{91F9E21B-26B7-3474-9269-82FFE0E5B991}</Project>
+      <Name>test_hello-world</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\julih\Insync\jcc30986@gmail.com\drive\Sandbox\exercism-cpp\build\build_exercises\practice\hexadecimal\test_hexadecimal.vcxproj">
+      <Project>{B4B584F4-0937-30F2-A493-0C8921909116}</Project>
+      <Name>test_hexadecimal</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\julih\Insync\jcc30986@gmail.com\drive\Sandbox\exercism-cpp\build\build_exercises\practice\high-scores\test_high-scores.vcxproj">
+      <Project>{8FA5EE7B-CBD3-361D-95B6-DE1168015861}</Project>
+      <Name>test_high-scores</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\julih\Insync\jcc30986@gmail.com\drive\Sandbox\exercism-cpp\build\build_exercises\practice\isbn-verifier\test_isbn-verifier.vcxproj">
+      <Project>{EE171CA9-E88C-393A-8E9A-647B3B6B26DA}</Project>
+      <Name>test_isbn-verifier</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\julih\Insync\jcc30986@gmail.com\drive\Sandbox\exercism-cpp\build\build_exercises\practice\isogram\test_isogram.vcxproj">
+      <Project>{AC0F420E-0296-3C1C-A4B2-95BB8CB9A23E}</Project>
+      <Name>test_isogram</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\julih\Insync\jcc30986@gmail.com\drive\Sandbox\exercism-cpp\build\build_exercises\practice\largest-series-product\test_largest-series-product.vcxproj">
+      <Project>{E714BD72-EDED-3762-BED2-4A44FC6F3E3D}</Project>
+      <Name>test_largest-series-product</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\julih\Insync\jcc30986@gmail.com\drive\Sandbox\exercism-cpp\build\build_exercises\practice\leap\test_leap.vcxproj">
+      <Project>{B32A5B41-D316-3DBF-9A19-E65198EBF268}</Project>
+      <Name>test_leap</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\julih\Insync\jcc30986@gmail.com\drive\Sandbox\exercism-cpp\build\build_exercises\practice\luhn\test_luhn.vcxproj">
+      <Project>{A82D47D2-1AA2-3DB1-8E77-0E4AD23A0944}</Project>
+      <Name>test_luhn</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\julih\Insync\jcc30986@gmail.com\drive\Sandbox\exercism-cpp\build\build_exercises\practice\matching-brackets\test_matching-brackets.vcxproj">
+      <Project>{96630235-9CD0-3565-A90B-8712247C796E}</Project>
+      <Name>test_matching-brackets</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\julih\Insync\jcc30986@gmail.com\drive\Sandbox\exercism-cpp\build\build_exercises\practice\meetup\test_meetup.vcxproj">
+      <Project>{C6631230-2585-3334-AC4D-D1B4D030134B}</Project>
+      <Name>test_meetup</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\julih\Insync\jcc30986@gmail.com\drive\Sandbox\exercism-cpp\build\build_exercises\practice\nth-prime\test_nth-prime.vcxproj">
+      <Project>{B8E12722-15A1-3505-9206-05D60820BC29}</Project>
+      <Name>test_nth-prime</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\julih\Insync\jcc30986@gmail.com\drive\Sandbox\exercism-cpp\build\build_exercises\practice\nucleotide-count\test_nucleotide-count.vcxproj">
+      <Project>{CDDE3394-2D6B-3DEA-908D-4122CE855E67}</Project>
+      <Name>test_nucleotide-count</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\julih\Insync\jcc30986@gmail.com\drive\Sandbox\exercism-cpp\build\build_exercises\practice\pangram\test_pangram.vcxproj">
+      <Project>{4BE6DF9C-F9F9-357B-B39E-64FC94CF0FC9}</Project>
+      <Name>test_pangram</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\julih\Insync\jcc30986@gmail.com\drive\Sandbox\exercism-cpp\build\build_exercises\practice\pascals-triangle\test_pascals-triangle.vcxproj">
+      <Project>{88A6530B-922C-3673-9C21-5CF7B2B8E6D1}</Project>
+      <Name>test_pascals-triangle</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\julih\Insync\jcc30986@gmail.com\drive\Sandbox\exercism-cpp\build\build_exercises\practice\perfect-numbers\test_perfect-numbers.vcxproj">
+      <Project>{031618C8-789D-3132-BD2C-BD86297D8AFE}</Project>
+      <Name>test_perfect-numbers</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\julih\Insync\jcc30986@gmail.com\drive\Sandbox\exercism-cpp\build\build_exercises\practice\phone-number\test_phone-number.vcxproj">
+      <Project>{7CFBC16A-5FCD-3D95-B8C9-247AF913C39D}</Project>
+      <Name>test_phone-number</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\julih\Insync\jcc30986@gmail.com\drive\Sandbox\exercism-cpp\build\build_exercises\practice\pop-count\test_pop-count.vcxproj">
+      <Project>{13269785-CFC6-3215-8E6F-6881B47335FD}</Project>
+      <Name>test_pop-count</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\julih\Insync\jcc30986@gmail.com\drive\Sandbox\exercism-cpp\build\build_exercises\practice\prime-factors\test_prime-factors.vcxproj">
+      <Project>{DBD7E96D-DD3B-3A17-BFA0-E683E645A8B7}</Project>
+      <Name>test_prime-factors</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\julih\Insync\jcc30986@gmail.com\drive\Sandbox\exercism-cpp\build\build_exercises\practice\protein-translation\test_protein-translation.vcxproj">
+      <Project>{6CA4EDC1-FAAF-38AB-B76F-5023FFB42D61}</Project>
+      <Name>test_protein-translation</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\julih\Insync\jcc30986@gmail.com\drive\Sandbox\exercism-cpp\build\build_exercises\practice\queen-attack\test_queen-attack.vcxproj">
+      <Project>{D0809D23-6362-3213-A240-CF0FA3546636}</Project>
+      <Name>test_queen-attack</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\julih\Insync\jcc30986@gmail.com\drive\Sandbox\exercism-cpp\build\build_exercises\practice\raindrops\test_raindrops.vcxproj">
+      <Project>{E2E2000D-0666-3533-B768-CA39DD6D7DA8}</Project>
+      <Name>test_raindrops</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\julih\Insync\jcc30986@gmail.com\drive\Sandbox\exercism-cpp\build\build_exercises\practice\reverse-string\test_reverse-string.vcxproj">
+      <Project>{9517D426-6935-38A3-A797-5F00ECCABF5A}</Project>
+      <Name>test_reverse-string</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\julih\Insync\jcc30986@gmail.com\drive\Sandbox\exercism-cpp\build\build_exercises\practice\rna-transcription\test_rna-transcription.vcxproj">
+      <Project>{95218254-F41C-33F3-855B-E66B226AA8EC}</Project>
+      <Name>test_rna-transcription</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\julih\Insync\jcc30986@gmail.com\drive\Sandbox\exercism-cpp\build\build_exercises\practice\robot-name\test_robot-name.vcxproj">
+      <Project>{12592DCF-AEE5-3A1D-A20F-DB5484885DBB}</Project>
+      <Name>test_robot-name</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\julih\Insync\jcc30986@gmail.com\drive\Sandbox\exercism-cpp\build\build_exercises\practice\robot-simulator\test_robot-simulator.vcxproj">
+      <Project>{F97E29D7-5770-3E74-B5B9-48C0B5A9ECBD}</Project>
+      <Name>test_robot-simulator</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\julih\Insync\jcc30986@gmail.com\drive\Sandbox\exercism-cpp\build\build_exercises\practice\roman-numerals\test_roman-numerals.vcxproj">
+      <Project>{AF58BAB2-5A11-3E4F-9C52-3F8862E074DE}</Project>
+      <Name>test_roman-numerals</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\julih\Insync\jcc30986@gmail.com\drive\Sandbox\exercism-cpp\build\build_exercises\practice\say\test_say.vcxproj">
+      <Project>{780DD879-4358-3E1E-BF54-E50CEA290DC2}</Project>
+      <Name>test_say</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\julih\Insync\jcc30986@gmail.com\drive\Sandbox\exercism-cpp\build\build_exercises\practice\scrabble-score\test_scrabble-score.vcxproj">
+      <Project>{6494B881-A251-3316-B081-85AC267DEC42}</Project>
+      <Name>test_scrabble-score</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\julih\Insync\jcc30986@gmail.com\drive\Sandbox\exercism-cpp\build\build_exercises\practice\secret-handshake\test_secret-handshake.vcxproj">
+      <Project>{2F0A5007-C91D-30EC-888A-407E2B560EB0}</Project>
+      <Name>test_secret-handshake</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\julih\Insync\jcc30986@gmail.com\drive\Sandbox\exercism-cpp\build\build_exercises\practice\series\test_series.vcxproj">
+      <Project>{7B8A0059-98AC-3AD6-8686-FB1CFBFE2C35}</Project>
+      <Name>test_series</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\julih\Insync\jcc30986@gmail.com\drive\Sandbox\exercism-cpp\build\build_exercises\practice\sieve\test_sieve.vcxproj">
+      <Project>{3BC824B3-6A30-36F4-B775-89241C6A63CA}</Project>
+      <Name>test_sieve</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\julih\Insync\jcc30986@gmail.com\drive\Sandbox\exercism-cpp\build\build_exercises\practice\simple-linked-list\test_simple-linked-list.vcxproj">
+      <Project>{756B9DC4-B8D3-3DA5-AAF8-1442D9E45D8D}</Project>
+      <Name>test_simple-linked-list</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\julih\Insync\jcc30986@gmail.com\drive\Sandbox\exercism-cpp\build\build_exercises\practice\space-age\test_space-age.vcxproj">
+      <Project>{DD3343D7-9F71-3D54-990D-7FBECE0C537E}</Project>
+      <Name>test_space-age</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\julih\Insync\jcc30986@gmail.com\drive\Sandbox\exercism-cpp\build\build_exercises\practice\sum-of-multiples\test_sum-of-multiples.vcxproj">
+      <Project>{F2A4ED0E-7FB1-316F-AC7E-9E8FA250CC39}</Project>
+      <Name>test_sum-of-multiples</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\julih\Insync\jcc30986@gmail.com\drive\Sandbox\exercism-cpp\build\build_exercises\practice\triangle\test_triangle.vcxproj">
+      <Project>{500B061C-B1F5-38DB-93F6-E7F80A29AFB1}</Project>
+      <Name>test_triangle</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\julih\Insync\jcc30986@gmail.com\drive\Sandbox\exercism-cpp\build\build_exercises\practice\trinary\test_trinary.vcxproj">
+      <Project>{30F13CF5-2FF9-3499-BDD4-7C3F9E1964F4}</Project>
+      <Name>test_trinary</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\julih\Insync\jcc30986@gmail.com\drive\Sandbox\exercism-cpp\build\build_exercises\practice\two-fer\test_two-fer.vcxproj">
+      <Project>{1CE5479D-3A05-3170-9441-8FFFC70FCE25}</Project>
+      <Name>test_two-fer</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\julih\Insync\jcc30986@gmail.com\drive\Sandbox\exercism-cpp\build\build_exercises\practice\word-count\test_word-count.vcxproj">
+      <Project>{36903023-DC68-3C45-96F9-F1A8DBF722DA}</Project>
+      <Name>test_word-count</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\julih\Insync\jcc30986@gmail.com\drive\Sandbox\exercism-cpp\build\build_exercises\practice\triangle\triangle.vcxproj">
+      <Project>{956E68A2-05E3-32C4-90B9-5FA1713374D3}</Project>
+      <Name>triangle</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\julih\Insync\jcc30986@gmail.com\drive\Sandbox\exercism-cpp\build\build_exercises\practice\trinary\trinary.vcxproj">
+      <Project>{6A5620BD-33FC-37F0-A9D4-ADEEBD374519}</Project>
+      <Name>trinary</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\julih\Insync\jcc30986@gmail.com\drive\Sandbox\exercism-cpp\build\build_exercises\practice\two-fer\two-fer.vcxproj">
+      <Project>{7FB6D9A5-464B-3AD7-90E2-F010F5771394}</Project>
+      <Name>two-fer</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\julih\Insync\jcc30986@gmail.com\drive\Sandbox\exercism-cpp\build\build_exercises\practice\word-count\word-count.vcxproj">
+      <Project>{FDCB4123-1EC3-3BC5-B31B-DC061232FF72}</Project>
+      <Name>word-count</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

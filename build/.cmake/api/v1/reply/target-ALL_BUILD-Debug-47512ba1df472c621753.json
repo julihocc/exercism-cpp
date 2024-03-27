@@ -1,0 +1,39 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"build_exercises/practice/complex-numbers/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "complex-numbers::@476645767a8fc17cde12"
+		},
+		{
+			"id" : "test_complex-numbers::@476645767a8fc17cde12"
+		},
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "ALL_BUILD::@476645767a8fc17cde12",
+	"isGeneratorProvided" : true,
+	"name" : "ALL_BUILD",
+	"paths" : 
+	{
+		"build" : "build_exercises/practice/complex-numbers",
+		"source" : "build_exercises/practice/complex-numbers"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

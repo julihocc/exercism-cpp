@@ -22,7 +22,8 @@ option(EXERCISM_RUN_ALL_TESTS "Run all Exercism tests" On)
 option(EXERCISM_COMMON_CATCH "Link against a common Catch2 main lib." On)
 
 if(EXERCISM_COMMON_CATCH)
-    add_library(catchlib OBJECT test/tests-main.cpp)
+    add_library(catchlib OBJECT test/tests-main.cpp
+            exercises/concept/log-levels/log_levels_test.cpp)
     set_target_properties(catchlib PROPERTIES
         CXX_STANDARD 11
         CXX_STANDARD_REQUIRED OFF

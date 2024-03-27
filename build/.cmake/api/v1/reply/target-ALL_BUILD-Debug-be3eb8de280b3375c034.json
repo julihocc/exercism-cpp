@@ -1,0 +1,39 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"build_exercises/practice/scrabble-score/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "test_scrabble-score::@e5fddc2e9c4cd388e6fb"
+		},
+		{
+			"id" : "scrabble-score::@e5fddc2e9c4cd388e6fb"
+		},
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "ALL_BUILD::@e5fddc2e9c4cd388e6fb",
+	"isGeneratorProvided" : true,
+	"name" : "ALL_BUILD",
+	"paths" : 
+	{
+		"build" : "build_exercises/practice/scrabble-score",
+		"source" : "build_exercises/practice/scrabble-score"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

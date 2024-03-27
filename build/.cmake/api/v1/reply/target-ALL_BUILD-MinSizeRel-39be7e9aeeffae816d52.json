@@ -1,0 +1,39 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"build_exercises/practice/sum-of-multiples/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "sum-of-multiples::@b7330ac7d8c88957b350"
+		},
+		{
+			"id" : "test_sum-of-multiples::@b7330ac7d8c88957b350"
+		},
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "ALL_BUILD::@b7330ac7d8c88957b350",
+	"isGeneratorProvided" : true,
+	"name" : "ALL_BUILD",
+	"paths" : 
+	{
+		"build" : "build_exercises/practice/sum-of-multiples",
+		"source" : "build_exercises/practice/sum-of-multiples"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

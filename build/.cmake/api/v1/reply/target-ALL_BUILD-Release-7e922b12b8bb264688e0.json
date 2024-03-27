@@ -1,0 +1,39 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"build_exercises/practice/queen-attack/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "queen-attack::@91b9332a97c87d28e415"
+		},
+		{
+			"id" : "test_queen-attack::@91b9332a97c87d28e415"
+		},
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "ALL_BUILD::@91b9332a97c87d28e415",
+	"isGeneratorProvided" : true,
+	"name" : "ALL_BUILD",
+	"paths" : 
+	{
+		"build" : "build_exercises/practice/queen-attack",
+		"source" : "build_exercises/practice/queen-attack"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

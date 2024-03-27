@@ -1,0 +1,414 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "catchlib::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "acronym::@9576849a830dafa59324"
+		},
+		{
+			"id" : "test_acronym::@9576849a830dafa59324"
+		},
+		{
+			"id" : "armstrong-numbers::@345b1beae60c15536eb9"
+		},
+		{
+			"id" : "test_armstrong-numbers::@345b1beae60c15536eb9"
+		},
+		{
+			"id" : "atbash-cipher::@6774ead60b0639d9fff6"
+		},
+		{
+			"id" : "test_allergies::@1a73ad99bdaed137140b"
+		},
+		{
+			"id" : "test_atbash-cipher::@6774ead60b0639d9fff6"
+		},
+		{
+			"id" : "all-your-base::@2871c87c1e81ed76a9ea"
+		},
+		{
+			"id" : "test_all-your-base::@2871c87c1e81ed76a9ea"
+		},
+		{
+			"id" : "allergies::@1a73ad99bdaed137140b"
+		},
+		{
+			"id" : "anagram::@f07870e3d61dd2c6e351"
+		},
+		{
+			"id" : "test_anagram::@f07870e3d61dd2c6e351"
+		},
+		{
+			"id" : "complex-numbers::@476645767a8fc17cde12"
+		},
+		{
+			"id" : "binary::@a0403b48e4aa12ec3ad9"
+		},
+		{
+			"id" : "circular-buffer::@e26f89994a2aa366f29e"
+		},
+		{
+			"id" : "test_circular-buffer::@e26f89994a2aa366f29e"
+		},
+		{
+			"id" : "test_complex-numbers::@476645767a8fc17cde12"
+		},
+		{
+			"id" : "crypto-square::@777158db1bae97c6d551"
+		},
+		{
+			"id" : "test_binary-search::@5bac4059c4cb27aa372b"
+		},
+		{
+			"id" : "test_bank-account::@f144afe7c9ec4fbbba72"
+		},
+		{
+			"id" : "beer-song::@682a5865a27319173cc4"
+		},
+		{
+			"id" : "binary-search::@5bac4059c4cb27aa372b"
+		},
+		{
+			"id" : "test_bob::@7200661917ad58090bc7"
+		},
+		{
+			"id" : "collatz-conjecture::@32d001186e902db1e284"
+		},
+		{
+			"id" : "test_binary::@a0403b48e4aa12ec3ad9"
+		},
+		{
+			"id" : "test_binary-search-tree::@5b674f4b09005bd356e9"
+		},
+		{
+			"id" : "test_beer-song::@682a5865a27319173cc4"
+		},
+		{
+			"id" : "test_collatz-conjecture::@32d001186e902db1e284"
+		},
+		{
+			"id" : "bank-account::@f144afe7c9ec4fbbba72"
+		},
+		{
+			"id" : "binary-search-tree::@5b674f4b09005bd356e9"
+		},
+		{
+			"id" : "bob::@7200661917ad58090bc7"
+		},
+		{
+			"id" : "clock::@9840f7130a2c3b16d417"
+		},
+		{
+			"id" : "test_clock::@9840f7130a2c3b16d417"
+		},
+		{
+			"id" : "test_food-chain::@171e5ce31897f718c94d"
+		},
+		{
+			"id" : "grade-school::@522e7c9535397735f641"
+		},
+		{
+			"id" : "test_hamming::@df311f67dd3547a82334"
+		},
+		{
+			"id" : "test_hello-world::@c924f757adac8e4f5c59"
+		},
+		{
+			"id" : "test_etl::@4e0a1c22a45831e9b99a"
+		},
+		{
+			"id" : "test_hexadecimal::@e3e75fcfe2bb8f76b507"
+		},
+		{
+			"id" : "darts::@498847e8f70f7bc0af68"
+		},
+		{
+			"id" : "food-chain::@171e5ce31897f718c94d"
+		},
+		{
+			"id" : "test_crypto-square::@777158db1bae97c6d551"
+		},
+		{
+			"id" : "test_difference-of-squares::@6e2739fd60fcede9176a"
+		},
+		{
+			"id" : "gigasecond::@8d4cd0552f07c3250a22"
+		},
+		{
+			"id" : "test_grade-school::@522e7c9535397735f641"
+		},
+		{
+			"id" : "grains::@df98f29ba0c138390e8d"
+		},
+		{
+			"id" : "difference-of-squares::@6e2739fd60fcede9176a"
+		},
+		{
+			"id" : "test_darts::@498847e8f70f7bc0af68"
+		},
+		{
+			"id" : "test_grains::@df98f29ba0c138390e8d"
+		},
+		{
+			"id" : "etl::@4e0a1c22a45831e9b99a"
+		},
+		{
+			"id" : "hamming::@df311f67dd3547a82334"
+		},
+		{
+			"id" : "hello-world::@c924f757adac8e4f5c59"
+		},
+		{
+			"id" : "test_gigasecond::@8d4cd0552f07c3250a22"
+		},
+		{
+			"id" : "hexadecimal::@e3e75fcfe2bb8f76b507"
+		},
+		{
+			"id" : "test_meetup::@f65afc7f3ff61fb5ac89"
+		},
+		{
+			"id" : "nth-prime::@7bf7bd0b762d7bbdb708"
+		},
+		{
+			"id" : "test_matching-brackets::@203047ca3db119d60b73"
+		},
+		{
+			"id" : "isogram::@953c035009ff4b49c981"
+		},
+		{
+			"id" : "test_isogram::@953c035009ff4b49c981"
+		},
+		{
+			"id" : "high-scores::@86defd7e940700c39cf6"
+		},
+		{
+			"id" : "test_nth-prime::@7bf7bd0b762d7bbdb708"
+		},
+		{
+			"id" : "nucleotide-count::@177482f02cccb4a01e5d"
+		},
+		{
+			"id" : "test_nucleotide-count::@177482f02cccb4a01e5d"
+		},
+		{
+			"id" : "pangram::@b2f15ba646988def0544"
+		},
+		{
+			"id" : "test_largest-series-product::@84f9bd16708013781c11"
+		},
+		{
+			"id" : "test_high-scores::@86defd7e940700c39cf6"
+		},
+		{
+			"id" : "test_isbn-verifier::@93e7bceee65da3235ee8"
+		},
+		{
+			"id" : "test_leap::@9301bdf98a5e0135bfee"
+		},
+		{
+			"id" : "largest-series-product::@84f9bd16708013781c11"
+		},
+		{
+			"id" : "test_luhn::@6afcc69b5b9705c702fb"
+		},
+		{
+			"id" : "isbn-verifier::@93e7bceee65da3235ee8"
+		},
+		{
+			"id" : "luhn::@6afcc69b5b9705c702fb"
+		},
+		{
+			"id" : "matching-brackets::@203047ca3db119d60b73"
+		},
+		{
+			"id" : "meetup::@f65afc7f3ff61fb5ac89"
+		},
+		{
+			"id" : "leap::@9301bdf98a5e0135bfee"
+		},
+		{
+			"id" : "test_reverse-string::@8b79dec39221e28955d7"
+		},
+		{
+			"id" : "pop-count::@cf90ba49888b5b253e6d"
+		},
+		{
+			"id" : "test_rna-transcription::@e1f9be7414c3e50d2d30"
+		},
+		{
+			"id" : "reverse-string::@8b79dec39221e28955d7"
+		},
+		{
+			"id" : "test_protein-translation::@a2ba158d9b004551f572"
+		},
+		{
+			"id" : "rna-transcription::@e1f9be7414c3e50d2d30"
+		},
+		{
+			"id" : "test_pascals-triangle::@5bf1e5a926c8df0e850c"
+		},
+		{
+			"id" : "prime-factors::@a35022c12956e4db4862"
+		},
+		{
+			"id" : "test_pop-count::@cf90ba49888b5b253e6d"
+		},
+		{
+			"id" : "phone-number::@5221800d174814122791"
+		},
+		{
+			"id" : "protein-translation::@a2ba158d9b004551f572"
+		},
+		{
+			"id" : "test_phone-number::@5221800d174814122791"
+		},
+		{
+			"id" : "queen-attack::@91b9332a97c87d28e415"
+		},
+		{
+			"id" : "raindrops::@65a6c88b81a42c5688aa"
+		},
+		{
+			"id" : "test_perfect-numbers::@4c1f2894e110e495fda3"
+		},
+		{
+			"id" : "test_queen-attack::@91b9332a97c87d28e415"
+		},
+		{
+			"id" : "test_pangram::@b2f15ba646988def0544"
+		},
+		{
+			"id" : "perfect-numbers::@4c1f2894e110e495fda3"
+		},
+		{
+			"id" : "test_raindrops::@65a6c88b81a42c5688aa"
+		},
+		{
+			"id" : "pascals-triangle::@5bf1e5a926c8df0e850c"
+		},
+		{
+			"id" : "test_prime-factors::@a35022c12956e4db4862"
+		},
+		{
+			"id" : "test_scrabble-score::@e5fddc2e9c4cd388e6fb"
+		},
+		{
+			"id" : "test_simple-linked-list::@dfd38f149791e6fada06"
+		},
+		{
+			"id" : "space-age::@94dab181084297dfb77c"
+		},
+		{
+			"id" : "test_space-age::@94dab181084297dfb77c"
+		},
+		{
+			"id" : "scrabble-score::@e5fddc2e9c4cd388e6fb"
+		},
+		{
+			"id" : "series::@4004eab856240d1f1a17"
+		},
+		{
+			"id" : "sieve::@16a2375fa53e2f49a720"
+		},
+		{
+			"id" : "say::@59c5591f2fcafa78cf9b"
+		},
+		{
+			"id" : "sum-of-multiples::@b7330ac7d8c88957b350"
+		},
+		{
+			"id" : "test_roman-numerals::@915d346b11142025fe45"
+		},
+		{
+			"id" : "test_say::@59c5591f2fcafa78cf9b"
+		},
+		{
+			"id" : "robot-simulator::@ac3f42053b1d1f09a0fb"
+		},
+		{
+			"id" : "test_robot-simulator::@ac3f42053b1d1f09a0fb"
+		},
+		{
+			"id" : "test_secret-handshake::@af467a2e9db1950532cf"
+		},
+		{
+			"id" : "robot-name::@df9da4f6a446e033a36e"
+		},
+		{
+			"id" : "test_series::@4004eab856240d1f1a17"
+		},
+		{
+			"id" : "test_robot-name::@df9da4f6a446e033a36e"
+		},
+		{
+			"id" : "roman-numerals::@915d346b11142025fe45"
+		},
+		{
+			"id" : "test_sieve::@16a2375fa53e2f49a720"
+		},
+		{
+			"id" : "simple-linked-list::@dfd38f149791e6fada06"
+		},
+		{
+			"id" : "secret-handshake::@af467a2e9db1950532cf"
+		},
+		{
+			"id" : "two-fer::@97991f39c2dc33d2dadf"
+		},
+		{
+			"id" : "test_two-fer::@97991f39c2dc33d2dadf"
+		},
+		{
+			"id" : "word-count::@51c16334a2e94a5e3f43"
+		},
+		{
+			"id" : "triangle::@d404bb20cfb236a0ffc2"
+		},
+		{
+			"id" : "trinary::@f54f454f799f4a9063b7"
+		},
+		{
+			"id" : "test_trinary::@f54f454f799f4a9063b7"
+		},
+		{
+			"id" : "test_word-count::@51c16334a2e94a5e3f43"
+		},
+		{
+			"id" : "test_sum-of-multiples::@b7330ac7d8c88957b350"
+		},
+		{
+			"id" : "test_triangle::@d404bb20cfb236a0ffc2"
+		},
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+	"isGeneratorProvided" : true,
+	"name" : "ALL_BUILD",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

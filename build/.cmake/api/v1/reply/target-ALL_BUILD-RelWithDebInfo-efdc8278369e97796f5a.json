@@ -1,0 +1,39 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"build_exercises/practice/rna-transcription/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "test_rna-transcription::@e1f9be7414c3e50d2d30"
+		},
+		{
+			"id" : "rna-transcription::@e1f9be7414c3e50d2d30"
+		},
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "ALL_BUILD::@e1f9be7414c3e50d2d30",
+	"isGeneratorProvided" : true,
+	"name" : "ALL_BUILD",
+	"paths" : 
+	{
+		"build" : "build_exercises/practice/rna-transcription",
+		"source" : "build_exercises/practice/rna-transcription"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

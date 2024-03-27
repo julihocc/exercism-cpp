@@ -1,0 +1,39 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"build_exercises/practice/two-fer/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "two-fer::@97991f39c2dc33d2dadf"
+		},
+		{
+			"id" : "test_two-fer::@97991f39c2dc33d2dadf"
+		},
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "ALL_BUILD::@97991f39c2dc33d2dadf",
+	"isGeneratorProvided" : true,
+	"name" : "ALL_BUILD",
+	"paths" : 
+	{
+		"build" : "build_exercises/practice/two-fer",
+		"source" : "build_exercises/practice/two-fer"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

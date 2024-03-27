@@ -1,0 +1,39 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"build_exercises/practice/nth-prime/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "nth-prime::@7bf7bd0b762d7bbdb708"
+		},
+		{
+			"id" : "test_nth-prime::@7bf7bd0b762d7bbdb708"
+		},
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "ALL_BUILD::@7bf7bd0b762d7bbdb708",
+	"isGeneratorProvided" : true,
+	"name" : "ALL_BUILD",
+	"paths" : 
+	{
+		"build" : "build_exercises/practice/nth-prime",
+		"source" : "build_exercises/practice/nth-prime"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

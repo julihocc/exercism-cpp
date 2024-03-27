@@ -1,0 +1,39 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"build_exercises/practice/largest-series-product/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "test_largest-series-product::@84f9bd16708013781c11"
+		},
+		{
+			"id" : "largest-series-product::@84f9bd16708013781c11"
+		},
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "ALL_BUILD::@84f9bd16708013781c11",
+	"isGeneratorProvided" : true,
+	"name" : "ALL_BUILD",
+	"paths" : 
+	{
+		"build" : "build_exercises/practice/largest-series-product",
+		"source" : "build_exercises/practice/largest-series-product"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

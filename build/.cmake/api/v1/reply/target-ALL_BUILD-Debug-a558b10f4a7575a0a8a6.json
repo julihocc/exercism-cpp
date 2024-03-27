@@ -1,0 +1,39 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"build_exercises/practice/gigasecond/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "gigasecond::@8d4cd0552f07c3250a22"
+		},
+		{
+			"id" : "test_gigasecond::@8d4cd0552f07c3250a22"
+		},
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "ALL_BUILD::@8d4cd0552f07c3250a22",
+	"isGeneratorProvided" : true,
+	"name" : "ALL_BUILD",
+	"paths" : 
+	{
+		"build" : "build_exercises/practice/gigasecond",
+		"source" : "build_exercises/practice/gigasecond"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

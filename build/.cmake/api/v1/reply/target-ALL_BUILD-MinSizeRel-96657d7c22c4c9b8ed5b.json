@@ -1,0 +1,39 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"build_exercises/practice/circular-buffer/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "circular-buffer::@e26f89994a2aa366f29e"
+		},
+		{
+			"id" : "test_circular-buffer::@e26f89994a2aa366f29e"
+		},
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "ALL_BUILD::@e26f89994a2aa366f29e",
+	"isGeneratorProvided" : true,
+	"name" : "ALL_BUILD",
+	"paths" : 
+	{
+		"build" : "build_exercises/practice/circular-buffer",
+		"source" : "build_exercises/practice/circular-buffer"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}
